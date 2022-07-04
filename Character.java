@@ -1,8 +1,10 @@
+import java.util.HashMap;
+
 class Character
 {
 	private String name;
 	private String job;
-	private HashMap<String,int> status = new HashMap<String,int>();
+	private HashMap<String,Integer> status = new HashMap<String,Integer>();
 
 	Character(String name)
 	{
@@ -38,7 +40,7 @@ class Character
 		}
 	}
 
-	HashMap<String,int> GetStatus()
+	HashMap<String,Integer> GetStatus()
 	{
 		return status;
 	}
